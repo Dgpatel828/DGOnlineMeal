@@ -1,0 +1,53 @@
+/* Navigation Section  */
+#navbar{
+    flex-direction: column;
+}
+
+/* Home Section  */
+#Home{
+    height: 320px;
+    
+    /* flex-direction: column; */
+}
+#Home::before{
+    height: 7000px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2px;
+    flex-direction: column;
+}
+#Home p{
+    font-size: 0.6rem;
+}
+
+/* Service Section  */
+#Services{
+    flex-direction: column;
+}
+#Services .box img{
+    height: 40px;
+    display: block;
+    margin: auto ;
+ 
+ }
+
+/* Client Section  */
+
+#clients{
+    overflow: scroll;
+}
+
+/* Contact U  */
+
+/* Utility class */
+
+.h-primary{
+    padding: 0px;
+    font-size: 0.8rem;
+}
+.h-secondary {
+    font-size: 1.0rem;
+    padding: 4px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
